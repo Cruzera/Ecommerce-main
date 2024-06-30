@@ -1,0 +1,44 @@
+.produto {
+    background: #ffffff;
+    border: 2px solid #C4C4C4;
+    border-radius: 15px;
+    padding: 8px;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    height: max-content;
+    cursor: pointer;
+}
+
+.produto:hover {
+    background: #E6E6E6;
+}
+
+.imgProduto {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #C4C4C4;
+    border-radius: 10px;
+    background-image: url("../Imagens/ImgNotFoundP.png");
+    background-size: cover;
+}
+
+.nomePreco {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 5px;
+}
+
+.nomeProduto {
+    height: 58px;
+    font-size: 24px;
+    text-align: left;
+}
+
+.precoProduto {
+    font-size: 32px;
+    text-align: right;
+    width: 100%;
+}

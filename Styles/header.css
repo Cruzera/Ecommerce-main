@@ -1,0 +1,111 @@
+.headerPrincipal {
+	background: rgb(21,86,163);
+	background: linear-gradient(90deg, rgba(21,86,163,1) 0%, rgba(8,32,61,1) 100%);
+	padding: 20px 20px;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.imgLogo {
+    width: auto;
+	height: 50px;
+	flex-shrink: 0;
+	cursor: pointer;
+}
+
+.divBotoes {
+	display: flex;
+	gap: 20px;
+	align-items: center;
+}
+
+.barraPesquisa {
+	display: flex;
+}
+
+.txtBarraPesquisa {
+	padding: 10px 20px;
+	background: #ffffff;
+	border-radius: 10px 0px 0px 10px; 
+	overflow: hidden;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 10px;
+	display: inline-flex;
+	width: 500px;
+	height: 50px;
+	border: 1px solid #C4C4C4;
+	font-size: 20px;
+	box-sizing: border-box;
+}
+
+.btnBarraPesquisa {
+	padding: 10px;
+	width: 50px;
+	height: 50px;
+	background: #00C2FF;
+	border-radius: 0px 10px 10px 0px;
+	overflow: hidden;
+	justify-content: flex-start;
+	align-items: flex-start;
+	display: flex;
+	border: none;
+	cursor: pointer;
+}
+
+.btnBarraPesquisa:hover {
+	background: #008AD8;
+}
+
+.btnNotification {
+  	color: black;
+  	background: none;
+  	border: none;
+  	position: relative;
+  	display: inline-block;
+	cursor: pointer;
+}
+
+.pdtsNumero {
+  	position: absolute;
+  	right: 0;
+  	bottom: 0;
+ 	padding: 2px 2px;
+  	min-width: 20px;
+	max-width: 50px;
+  	height: 20px;
+	border-radius: 10px;
+  	background-color: red;
+  	color: white;
+}
+
+.headerCategorias {
+	display: flex;
+	background: #213F5A;
+	justify-content: space-between;
+	height: 50px;
+	padding: 0 20px;
+}
+
+.btnCategoria {
+	background: #213F5A;
+	border: none;
+	color: #ffffff;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 10px 20px;
+	align-items: center;
+	gap: 5px;
+	display: flex;
+	cursor: pointer;
+}
+
+.btnCategoria:hover {
+	background: #ffffff;
+	color: #213F5A;
+	.iconeList {
+		fill: #213F5A;
+	}
+}

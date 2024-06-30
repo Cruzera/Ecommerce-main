@@ -1,0 +1,114 @@
+.perfilInfo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imgPerfil {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #C4C4C4;
+    background-image: url("../Imagens/pfpNotFound.png");
+    background-size: cover;
+}
+
+.nomePerfil {
+    display: flex;
+    width: 500px;
+}
+
+.produtosPerfil {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tituloPesquisa {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.titulo {
+    width: 100%;
+    text-align: left;
+    font-size: 32px;
+}
+
+.barraPesquisaPerfil {
+	display: flex;
+}
+
+.txtBarraPesquisaPerfil {
+	padding: 10px 20px;
+	background: #ffffff;
+	border-radius: 10px 0px 0px 10px; 
+	overflow: hidden;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 10px;
+	display: inline-flex;
+	width: 500px;
+	height: 50px;
+	border: 1px solid #C4C4C4;
+	font-size: 20px;
+	box-sizing: border-box;
+}
+
+.btnBarraPesquisaPerfil {
+	padding: 10px;
+	width: 50px;
+	height: 50px;
+	background: #00C2FF;
+	border-radius: 0px 10px 10px 0px;
+	overflow: hidden;
+	justify-content: flex-start;
+	align-items: flex-start;
+	display: flex;
+	border: none;
+	cursor: pointer;
+}
+
+.btnBarraPesquisaPerfil:hover {
+	background: #008AD8;
+}
+
+.produtos {
+    width: 940px;
+    max-height: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 20px;
+}
+
+.selecionaPagina {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+    justify-content: end;
+}
+
+.iconeSetaEsquerda {
+    width: 20px;
+    height: 20px;
+}
+
+.numPagina {
+    color: #6E6E6E;
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+}
+
+.iconeSetaDireita {
+    width: 20px;
+    height: 20px;
+}

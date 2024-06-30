@@ -1,0 +1,235 @@
+.containers {
+    display: flex;
+    gap: 10px;
+    align-content: flex-start;
+    align-items: start;
+}
+
+.dados {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.containerDados, .containerCompra {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #C4C4C4;
+    border-radius: 15px;
+    padding: 20px;
+    gap: 20px;
+}
+
+.containerDados {
+    width: 800px;
+}
+
+.containerCompra {
+    width: 400px;
+}
+
+.etapa {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tituloEtapa {
+    font-size: 20px;
+}
+
+.campos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.campo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.lblCampo {
+    display: flex;
+    white-space: nowrap;
+    gap: 5px;
+    align-items: center;
+    font-size: 16px;
+}
+
+.txtCampo {
+    padding: 5px;
+	background: #F5F5F5;
+	border-radius: 5px; 
+	overflow: hidden;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 10px;
+	display: inline-flex;
+	width: 100%;
+	height: 35px;
+	border: 1px solid #C4C4C4;
+	font-size: 16px;
+	box-sizing: border-box;
+}
+
+.HOTDOG {
+    width: 300px;
+}
+
+.separaCampos {
+    display: flex;
+    gap: 20px;
+}
+
+.dadosPagamento {
+    display: flex;
+    flex-direction: column;
+}
+
+.detalhesPagamento {
+    display: none;
+    flex-direction: column;
+    padding: 10px;
+    gap: 20px;
+    border-bottom: 2px solid #C4C4C4;
+}
+
+.info {
+    display: flex;
+    gap: 5px;
+    color: #6E6E6E;
+    font-size: 12px;
+}
+
+.salvarCartao {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.checkSalvarCartao {
+    display: flex;
+    gap: 5px;
+}
+
+.detalhesSalvarCartao {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    align-items: start;
+}
+
+.produtos {
+    max-height: 300px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.produto {
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 8px;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.produto:hover {
+    background: #E6E6E6;
+}
+
+.qtd {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgProduto {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #C4C4C4;
+    border-radius: 10px;
+    background-image: url("../Imagens/ImgNotFoundP.png");
+    background-size: cover;
+}
+
+.divInfo {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    height: 100%;
+    gap: 5px;
+}
+
+.nomeRemover{
+    display: flex;
+    align-items: start;
+}
+
+.nomeProduto {
+    text-align: left;
+    font-size: 20px;
+    width: 100%;
+    height: 48px;
+}
+
+.informacoes {
+    display: flex;
+    width: 100%;
+    gap: 40px;
+}
+
+.informacao {
+    font-size: 16px;
+    display: flex;
+    gap: 5px;
+}
+
+.valores {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.cupom {
+    font-size: 16px;
+    font-weight: 600;
+    color: #FF004D;
+    text-decoration: none;
+    text-align: center;
+}
+
+.tituloTotal {
+    font-size: 24px;
+}
+
+.lblTotal {
+    font-size: 20px;
+}
+
+.btnCompra {
+    display: flex;
+    width: 100%;
+    justify-content: right;
+}
+
+.obs {
+    text-align: center;
+    font-size: 12px;
+    color: #6E6E6E;
+}
+
+.termosCondicoes {
+    font-weight: 600;
+    font-size: 12px;
+    color: #00C2FF;
+    text-decoration: none;
+}

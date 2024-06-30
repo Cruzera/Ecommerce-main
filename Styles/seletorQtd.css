@@ -1,0 +1,41 @@
+.seletor {
+    display: flex;
+    width: 80px;
+    height: 20px;
+}
+
+.btnMenos, .btnMais {
+    background: #ffffff;
+    border: 1px solid #C4C4C4;
+    width: auto;
+    height: 100%;
+}
+
+.btnMenos {
+    border-radius: 25% 0 0 25%;
+}
+
+.btnMais {
+    border-radius: 0 25% 25% 0;
+}
+
+.btnMenos:hover, .btnMais:hover {
+    background: #E6E6E6;
+}
+
+.iconeMenos, .iconeMais {
+    width: auto;
+    height: 100%;
+}
+
+.txtQtd {
+    background: #ffffff;
+    border: 1px solid #C4C4C4;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.txtQtd::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}

@@ -1,0 +1,81 @@
+.comentario {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 5px;
+    padding: 10px;
+    border-top: 1px solid #C4C4C4;
+}
+
+.tempo {
+    font-size: 16px;
+}
+
+.divImgComentario {
+    display: flex;
+    gap: 10px;
+    max-width: 50%;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.imgComentario {
+    min-width: 100px;
+    min-height: 100px;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    background-image: url("../Imagens/ImgNotFoundP.png");
+    background-size: cover;
+}
+
+.textoComentario {
+    width: 950px;
+    font-size: 16px;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+    -webkit-box-orient: vertical; 
+}
+
+.utilDenunciar {
+    display: flex;
+    gap: 5px;
+}
+
+.btn1stComentario {
+    background: #1556A3;
+    border-radius: 10px;
+    border: none;
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn1stComentario:hover {
+    background: #08203D;
+}
+
+.btn2ndComentario {
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    color: #1556A3;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn2ndComentario:hover {
+    color: #08203D;
+}

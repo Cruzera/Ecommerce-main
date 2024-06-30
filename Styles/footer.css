@@ -1,0 +1,62 @@
+footer {
+	background: #213F5A;
+	display: flex;
+	padding: 20px 50px;
+	flex-direction: column;
+	align-items: center;
+	gap: 50px;
+	flex-shrink: 0;
+}
+
+.infoFooter {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.divOpcoes {
+    display: flex;
+    gap: 50px;
+}
+
+.opcoes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tituloInfo {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.listOpcoes {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.aOpcao {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.listRedesSociais {
+    display: flex;
+    gap: 10px;
+}
+
+.btnRedeSocial {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.lblDireitosAutorais {
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: 400;
+}

@@ -1,0 +1,40 @@
+.titulo {
+    font-size: 32px;
+}
+
+.produtos {
+    width: 940px;
+    max-height: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 20px;
+}
+
+.selecionaPagina {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+    justify-content: end;
+}
+
+.iconeSetaEsquerda {
+    width: 20px;
+    height: 20px;
+}
+
+.numPagina {
+    color: #6E6E6E;
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+}
+
+.iconeSetaDireita {
+    width: 20px;
+    height: 20px;
+}
